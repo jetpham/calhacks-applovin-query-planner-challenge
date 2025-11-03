@@ -19,6 +19,12 @@ From Calhacks 2025, the leaderboard was as follows:
 
 > **Note:** These benchmarks were run on the contestants' machines and not the M2 MacBook as listed in the challenge due to network issues at Calhacks that prevented judges from downloading contestants' projects. Some projects include query optimization and some do not. The preprocessing time of each project varies but was capped to about 40 minutes.
 
+## Benchmark
+
+The contestants were given a 20GB dataset and a set of 5 queries in [queries.json](queries.json) to initially test their solution. These queries could be converted to sql as demonstarted in [assembler.py](baseline/assembler.py).
+
+After they developped their solutions, on judging day, they were given a new set of 19 queries in [judges.json](judges.json).
+
 ## Getting Started
 
 ### Setup Instructions
