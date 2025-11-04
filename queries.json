@@ -39,4 +39,3 @@
         "order_by": [{"col": "minute", "dir": "asc"}]
     }
 ]
-
